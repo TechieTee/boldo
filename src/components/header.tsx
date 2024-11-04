@@ -109,8 +109,8 @@ const Header = () => {
       </button>
 
       <div
-        className={`absolute w-full top-[-150px] transition-transform px-[8%] py-[20px] z-10 grid bg-white ${
-          isOpen ? "translate-y-full bg-white " : "translate-y-[-100vh] bg-white "
+        className={`absolute w-full top-[-150px] transition-transform px-[8%] py-[20px] z-50 grid !bg-[#fff] ${
+          isOpen ? "translate-y-full  " : "translate-y-[-100vh]  "
         }`}
       >
         {navItems.map((item, index) => (
