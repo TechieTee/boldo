@@ -25,11 +25,11 @@ const Footer = () => {
             <div className="grid-cols-1">
 
               <div className="col-span-1 p-2 md: ">
-                <h2 className="font-sans font-bold text-[#000] text-[20px] leading-[32px]">
+                <h2 className="font-sans font-bold text-[#000] text-[16px] leading-[32px]">
                   Landings
                 </h2>
 
-                <div className="mt-6 flex flex-col gap-6 text-[#777777] text-[20px] font-[400px] leading-[28px]">
+                <div className="mt-6 flex flex-col gap-6 text-[#777777] text-[16px] font-[400px] leading-[28px]">
 
                   <p className=" ">
                     <Link to="/">Home</Link>
@@ -51,11 +51,11 @@ const Footer = () => {
 
             <div className="grid-cols-1">
               <div className="col-span-1 p-2 md: ">
-                <h2 className="font-sans font-bold text-[#000] text-[20px] leading-[32px]">
+                <h2 className="font-sans font-bold text-[#000] text-[16px] leading-[32px]">
                   Company
                 </h2>
 
-                <div className="mt-6 flex flex-col gap-6 text-[#777777] text-[20px] font-[400px] leading-[28px]">
+                <div className="mt-6 flex flex-col gap-6 text-[#777777] text-[16px] font-[400px] leading-[28px]">
                   <p className="">
                     <Link to="/">About</Link>
                   </p>
@@ -63,7 +63,7 @@ const Footer = () => {
                     <p className="mr-2">
                       <Link to="/">Careers</Link>
                     </p>
-                    <button className=" bg-[#65E4A3] font-bold text-nowrap text-primary py-1 px-2 md:px-3 lg:text-[13px] md:text-[0.7] sm:text-[0.4rem] rounded-2xl">
+                    <button className=" bg-[#65E4A3] font-bold text-nowrap text-primary py-1 px-2 md:px-3 text-[12px] rounded-2xl">
                       Hiring!
                     </button>
                   </div>
@@ -77,11 +77,11 @@ const Footer = () => {
             <div className="grid-cols-1">
 
               <div className="col-span-1 p-2 md: ">
-                <h2 className="font-sans font-bold text-[#000] text-[20px] leading-[32px]">
+                <h2 className="font-sans font-bold text-[#000] text-[16px] leading-[32px]">
                   Resources
                 </h2>
 
-                <div className="mt-6 flex flex-col gap-6 text-[#777777] text-[20px] font-[400px] leading-[28px]">
+                <div className="mt-6 flex flex-col gap-6 text-[#777777] text-[16px] font-[400px] leading-[28px]">
                   <p className=" ">
                     <Link to="/">Blog</Link>
                   </p>

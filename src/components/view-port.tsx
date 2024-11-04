@@ -7,7 +7,7 @@ const ViewPort = () => {
   return (
     <div className="pt-[40px]  lg:px-36 lg:pb-16 md:px-24 md:pb-16 px-[20px] py-[20px]  grid md:items-center md:justify-center bg-[#FFFFFF] w-full lg:text-left md:text-center text-center" >
       <div className=" mx-auto grid xl:grid-cols-2 grid-cols-1 md:gap-16 gap-2" >
-        <div className=" col-span-1 flex flex-col items-center justify-center gap-4">
+        <div className="z-60 col-span-1 flex flex-col items-center justify-center gap-4">
 
           <h2 className=" text-[#000000] text-lg font-[400px] lg:leading-[82px] md:leading-[52px] sm:leading-[32px]">
             Save time by building  fast with Boldo Template

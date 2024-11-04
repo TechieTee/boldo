@@ -59,7 +59,7 @@ const Header = () => {
 
   return (
     <nav className="py-[30px] lg:px-[150px] md:px-[80px] px-[30px] flex items-center justify-between bg-[#fff] z-50  w-full">
-                 <div className=" w-[750px] h-[700px] absolute top-0 right-0 hidden"><img src={Image.bgnav} alt="logo"  className='h-full w-full '/> </div> 
+                 <div className=" w-[750px] h-[700px] absolute top-0 right-0 hidden lg:block"><img src={Image.bgnav} alt="logo"  className='h-full w-full '/> </div> 
                  
          <img src={Image.Logo4}  alt="logo"   className="lg:w-[200px] md:w-[100px] w-[80px] mr-4 cursor-pointer" onClick={() => navigate('/')}/> 
     
@@ -125,7 +125,7 @@ const Header = () => {
    
     
    onClick={() => navigate('/')}
-   className={`px-12 py-3 rounded-full w-[30%] bg-[#fff]  text-primary text-[12px] font-sans font-bold border-[2px] border-primary hover:text-[#fff] hover:bg-primary disabled:opacity-50`}
+   className={`px-12 py-3 rounded-full w-[50%] bg-[#fff]  text-primary text-[12px] font-sans font-bold border-[2px] border-primary hover:text-[#fff] hover:bg-primary disabled:opacity-50`}
  >
 Log In
  </button>
