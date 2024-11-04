@@ -82,7 +82,7 @@ const Header = () => {
    
     
       onClick={() => navigate('/')}
-      className={`px-12 py-3 rounded-full bg-[#fff]  text-primary text-[20px] font-sans font-bold border-[2px] border-primary hover:text-[#fff] hover:bg-primary disabled:opacity-50`}
+      className={`z-50 px-12 py-3 rounded-full bg-[#fff]  text-primary text-[20px] font-sans font-bold border-[2px] border-primary hover:text-[#fff] hover:bg-primary disabled:opacity-50`}
     >
    Log In
     </button>
@@ -125,7 +125,7 @@ const Header = () => {
    
     
    onClick={() => navigate('/')}
-   className={`px-12 py-3 rounded-full w-[50%] bg-[#fff]  text-primary text-[12px] font-sans font-bold border-[2px] border-primary hover:text-[#fff] hover:bg-primary disabled:opacity-50`}
+   className={`z-50 px-12 py-3 rounded-full w-[50%] bg-[#fff]  text-primary text-[12px] font-sans font-bold border-[2px] border-primary hover:text-[#fff] hover:bg-primary disabled:opacity-50`}
  >
 Log In
  </button>
