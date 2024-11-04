@@ -12,7 +12,7 @@ const Testimonial = () => {
       <div className=" flex lg:flex-row flex-col items-center w-full ">
 
         <div className=" lg:mt-4 md:mt-4 mt-8 lg:w-[60%] w-full">
-          <div className=" inline-block text-[#fff] text-lg lg:text-left text-center font-[400px] leading-[92px]">
+          <div className=" inline-block text-[#fff] text-lg lg:text-left text-center font-[400px] lg:leading-[90px] md:leading-[42px] sm:leading-[32px]">
             An enterprise template to ramp up your company website
           </div>
         </div>
