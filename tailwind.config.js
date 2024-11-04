@@ -18,7 +18,7 @@ module.exports = {
 
       },
       fontSize: {
-        'lg': 'clamp(2rem, 2vw + 1rem, 4.5rem)', 
+        'lg': 'clamp(2rem, 2vw + 1rem, 4.3rem)', 
         'md': 'clamp(1rem, 1.5vw + 0.5rem, 1.75rem)',
         'sm': 'clamp(0.875rem, 1vw + 0.25rem, 1.25rem)',
       },
