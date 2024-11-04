@@ -58,8 +58,9 @@ const Header = () => {
   };
 
   return (
-    <nav className="py-[30px] px-[150px] md:px-[100px] flex items-center md:justify-center sm:justify-center lg:justify-between bg-[#fff] z-50  w-full">
-                <div className=" w-[750px] h-[700px] absolute top-0 right-0 md:hidden sm:hidden"><img src={Image.bgnav} alt="logo"  className='h-full w-full '/> </div> 
+    <nav className="py-[30px] lg:px-[150px] md:px-[80px] px-[30px] flex items-center justify-between bg-[#fff] z-50  w-full">
+                 <div className=" w-[750px] h-[700px] absolute top-0 right-0 hidden"><img src={Image.bgnav} alt="logo"  className='h-full w-full '/> </div> 
+                 
          <img src={Image.Logo4}  alt="logo"   className="lg:w-[200px] md:w-[100px] w-[80px] mr-4 cursor-pointer" onClick={() => navigate('/')}/> 
     
 

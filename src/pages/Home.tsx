@@ -13,7 +13,7 @@ import '../index.css'
 
 const Home = () => {
   return (
-    <>
+    <div className="grid">
 
       <Header />
       <ViewPort />
@@ -35,7 +35,7 @@ const Home = () => {
 
 
 
-    </>
+    </div>
   );
 };
 export default Home;

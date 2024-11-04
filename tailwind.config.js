@@ -17,6 +17,11 @@ module.exports = {
         'contact-bg':"url('/assets/bgcontact.png')",
 
       },
+      fontSize: {
+        'lg': 'clamp(2rem, 2.5vw + 1.5rem, 2.5rem)', 
+        'md': 'clamp(1rem, 1.5vw + 0.5rem, 1.75rem)',
+        'sm': 'clamp(0.875rem, 1vw + 0.25rem, 1.25rem)',
+      },
       
       colors:{
         primary:'#0A2640',

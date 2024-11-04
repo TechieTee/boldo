@@ -31,7 +31,7 @@ const Card: React.FC<CardProps> = ({ className, services, blogs, title, descript
       <h2 className="text-center text-[#777777] text-[24px] font-sans font-[400px] leading-[10px]">
         {title}
       </h2>
-      <h4 className={`text-white text-center text-[#000000] text-[65px] md:text-[45px] sm:text-[32px]  px-6 font-[400px] leading-[84px] ${className}`}>
+      <h4 className={`text-white text-center text-[#000000] text-lg font-[400px] lg:leading-[82px] md:leading-[52px] sm:leading-[32px] px-6 font-[400px]  ${className}`}>
         {description}
       </h4>
       {

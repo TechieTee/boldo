@@ -13,7 +13,7 @@ const ImageCard = () => {
         </div>
         <div className="flex  items-center lg:justify-end justify-center w-full">
           <div className="flex flex-col gap-8">
-            <h2 className="lg:text-left text-center text-[#000000] text-[40px]  font-[400px] leading-[56px]">
+            <h2 className="lg:text-left text-center text-[#000000] text-lg  font-[400px] leading-[56px]">
               We connect our customers <br />with the best, and help them <br />keep up-and stay open.
             </h2>
 
@@ -22,7 +22,7 @@ const ImageCard = () => {
               <li className=" flex items-center gap-x-4  lg:justify-start md:justify-center  sm:justify-center cursor-pointer"> <img src={Image.Good} alt="logo" className="" /><span >Advisor success customer launch party. </span> </li>
               <li className="flex items-center gap-x-4 lg:justify-start md:justify-center  sm:justify-center   cursor-pointer"> <img src={Image.Good} alt="logo" className="" /><span >Business-to-consumer long tail. </span> </li>
             </ul>
-            <div className=" flex items-center justify-start md:justify-center  sm:justify-center ">
+            <div className=" flex items-center lg:justify-start md:justify-center  sm:justify-center ">
               <PrimaryButton label="Start Now" onClick={() => navigate('/')} />
             </div>
           </div>
@@ -33,7 +33,7 @@ const ImageCard = () => {
       <div className="flex gap-24 flex-col items-center  justify-between lg:grid lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 w-full">
 
         <div className="w-fit flex gap-6 flex-col items-left justify-between">
-          <h2 className="lg:text-left text-center text-[#000000] text-[40px]  font-[400px] leading-[56px]">
+          <h2 className="lg:text-left text-center text-[#000000] text-lg  font-[400px] leading-[56px]">
             We connect our customers <br />with the best, and help them<br /> keep up-and stay open.
           </h2>
 
