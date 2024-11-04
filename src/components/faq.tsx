@@ -7,7 +7,7 @@ const FAQ = () => {
         <img src={Image.Customers} alt="logo" className="h-full w-full object-cover" />
         <div className=" grid items-center justify-center lg:grid-cols-2 lg:gap-8 md:grid-cols-1 gap-12 sm:grid-cols-1">
         <h2 className="lg:text-left text-center text-[#000000] text-lg  font-[400px] leading-[56px] w-full">
-            We connect our customers <br />with the best, and help them<br /> keep up-and stay open.
+            We connect our customers <br />with the best, and help them keep up-and stay open.
           </h2>
           <div className="text-[#595959] text-[18px] lg:text-[18px] font-normal  mb-2 leading-loose  flex items-center lg:justify-end justify-center gap-x-2">
             <ul className="flex items-center justify-right flex-col gap-6 list-none mt-4  lg:mb-0 md:mb-0 md:mb-8 mb-8 text-[#000000] text-[22px] font-sans font-[400px] leading-[42px]">
