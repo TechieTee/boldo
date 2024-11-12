@@ -5,9 +5,11 @@ import { Image } from "../assets/index";
 
 const Header = () => {
   const navItems = [
-    { name: "Product", link: "/#products" },
-    { name: "Services", link: "/#services" },
+    { name: "Home", link: "/" },
     { name: "About", link: "/#about" },
+    { name: "Services", link: "/#services" },
+    { name: "Properties", link: "/#products" },
+    { name: "Contact Us", link: "/" },
 
   
   ];
@@ -59,9 +61,9 @@ const Header = () => {
 
   return (
     <nav className="py-[30px] lg:px-[150px] md:px-[80px] px-[30px] flex items-center justify-between bg-[#fff] z-50  w-full">
-                 <div className=" w-[750px] h-[700px] absolute top-0 right-0 hidden lg:block"><img src={Image.bgnav} alt="logo"  className='h-full w-full '/> </div> 
+               
                  
-         <img src={Image.Logo4}  alt="logo"   className="lg:w-[200px] md:w-[100px] w-[80px] mr-4 cursor-pointer" onClick={() => navigate('/')}/> 
+         <img src={Image.Logo}  alt="logo"   className="lg:w-[200px] md:w-[100px] w-[80px] mr-4 cursor-pointer" onClick={() => navigate('/')}/> 
     
 
       <div className="hidden md:flex items-center gap-[50px]">
@@ -84,7 +86,7 @@ const Header = () => {
       onClick={() => navigate('/')}
       className={`z-50 px-12 py-3 rounded-full bg-[#fff]  text-primary text-[20px] font-sans font-bold border-[2px] border-primary hover:text-[#fff] hover:bg-primary disabled:opacity-50`}
     >
-   Log In
+Explore Properties
     </button>
       </div>
 
@@ -127,7 +129,7 @@ const Header = () => {
    onClick={() => navigate('/')}
    className={`z-50 px-12 py-3 rounded-full w-[50%] bg-[#fff]  text-primary text-[12px] font-sans font-bold border-[2px] border-primary hover:text-[#fff] hover:bg-primary disabled:opacity-50`}
  >
-Log In
+Explore Properties
  </button>
       </div>
     </nav>

@@ -19,6 +19,7 @@ const brandIcons: IconData[] = [
   return (
     
     <div className="px-24 py-24  p-4">
+      <p className="text-center text-[22px] py-10">Thousands of world’s leading companies trust Space</p>
       <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-8">
         {brandIcons.map((brand) => (
           <div key={brand.id} className="flex flex-col items-center">

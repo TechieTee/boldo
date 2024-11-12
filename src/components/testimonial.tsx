@@ -2,36 +2,39 @@ import React from 'react'
 import { Image } from "../assets/index";
 const Testimonial = () => {
   const imageCards = [
-    { id: 1, imageUrl: Image.Ellipse4, text: ' “Buyer buzz partner network disruptive non-disclosure agreement business”', name: 'Albus Dumbledore', designation: 'Manager @ Howarts' },
-    { id: 1, imageUrl: Image.Ellipse41, text: '  “Learning curve infrastructure value proposition advisor strategy user experience hypotheses investor.”', name: 'Severus Snape', designation: 'Manager @ Slytherin' },
-    { id: 1, imageUrl: Image.Ellipse42, text: '“Release facebook responsive web design business model canvas seed money monetization.”', name: 'Harry Potter', designation: 'Team Leader @ Gryffindor' },
+    { id: 1, imageUrl: Image.Ellipse4, name: 'Sales & Marketing', designation: '8 Properties' },
+    { id: 1, imageUrl: Image.Ellipse4, name: 'Sales & Marketing', designation: '8 Properties' },
+    { id: 1, imageUrl: Image.Ellipse4, name: 'Sales & Marketing', designation: '8 Properties' },
+    { id: 1, imageUrl: Image.Ellipse4, name: 'Sales & Marketing', designation: '8 Properties' },
+    { id: 1, imageUrl: Image.Ellipse4, name: 'Sales & Marketing', designation: '8 Properties' },
 
   ];
   return (
-    <div className='bg-[#0A2640] mx-auto lg:px-36 lg:py-16 md:px-24 md:py-16 px-[10px] py-[50px] grid  lg:gap-24 gap-14 ' id="services">
+    <div className='bg-[#fff] mx-auto lg:px-36 lg:py-16 md:px-24 md:py-16 px-[10px] py-[50px] grid  lg:gap-24 gap-14 ' id="services">
       <div className=" flex lg:flex-row flex-col items-center w-full ">
 
         <div className=" lg:mt-4 md:mt-4 mt-8 lg:w-[60%] w-full">
-          <div className=" inline-block text-[#fff] text-lg lg:text-left text-center font-[400px] lg:leading-[90px] md:leading-[42px] sm:leading-[32px]">
-            An enterprise template to ramp up your company website
+          <div className=" inline-block text-[#000] text-lg lg:text-left text-center font-[400px] lg:leading-[90px] md:leading-[42px] sm:leading-[32px]">
+          Services
+          </div><br/>
+          <div className=" inline-block text-[#000] text-[16px] lg:text-left text-center font-[400px] lg:leading-[90px] md:leading-[42px] sm:leading-[32px]">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
           </div>
         </div>
         <div className=" lg:mt-4 md:mt-4 mt-8 w-[40%]  ">
-          <div className="text-[#595959] text-[18px] lg:text-[18px] font-normal  mb-2 leading-loose  flex items-center lg:justify-end justify-center gap-x-6 cursor-pointer"> <img src={Image.Group233} alt="logo" className="" /><span > <img src={Image.Group232} alt="logo" className="" /> </span> </div>
+          <div className="text-[#595959] text-[18px] lg:text-[18px] font-normal  mb-2 leading-loose  flex !items-center lg:justify-end justify-center gap-x-6 cursor-pointer"><span>View All</span><span > <img src={Image.Group232} alt="logo" className="" /> </span> </div>
 
         </div>
       </div>
-      <div className="grid lg:grid-cols-3 md:grid-cols-1 sm:grid-cols-1 items-center justify-between gap-16 mt-10">
+      <div className="grid lg:grid-cols-5 md:grid-cols-1 sm:grid-cols-1 items-center justify-between gap-8">
         {imageCards.map(card => (
-          <div className=" font-sans  text-left  grid gap-12 items-center h-full shadow-sm p-[40px] bg-[#fff] rounded-[12px]">
-            <div className="text-[#000] font-[400px] text-[26px] text-left leading-[36px]" >
-              {card.text}
-            </div>
-            <div className='flex gap-3  mb-5 items-start'>
-              <img src={card.imageUrl} alt={card.text} />
-              <div className='text-primary leading-[32px]'>
-                <h3 className=' text-[18px] font-semibold '>{card.name}</h3>
-                <p className='font-[400px] text-[16px] '>{card.designation}</p>
+          <div className=" font-sans  text-left  grid gap-6 items-center h-full shadow-sm p-[15px] border bg-[#fff] rounded-[12px]">
+           
+            <div className='flex gap-2   items-center'>
+           <div className=' rounded-[12px]'>  <img src={card.imageUrl} alt={card.name} className='rounded-[12px] ' /></div> 
+              <div className='text-primary '>
+                <h3 className=' text-[16px] font-semibold '>{card.name}</h3>
+                <p className='font-[400px] text-[14px] '>{card.designation}</p>
               </div>
             </div>
           </div>))}
