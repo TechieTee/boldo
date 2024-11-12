@@ -9,6 +9,10 @@ import FAQ from "../components/faq";
 import ViewPort from "../components/view-port";
 import Card from "../components/card";
 import '../index.css'
+import Testimonial2 from "../components/testimonial2";
+import NewView from "../components/newView";
+import Testimonial3 from "../components/testimonial3";
+
 
 
 const Home = () => {
@@ -17,18 +21,17 @@ const Home = () => {
 
       <Header />
       <ViewPort />
-
-      <Partners />
-      <Card title="Our Services" description={`Handshake infographic mass market crowdfunding iteration.`} services={true} />
-
-      <ImageCard />
-
-
       <Testimonial />
-      <FAQ />
-      <Card title="Our Blog" description="Value proposition accelerator product management venture" blogs={true} className="!bg-[#fff] !text-[#000]" />
+      <Testimonial2 />
+<NewView/>   <Contact />
+      <Partners />
+   
+      <Testimonial3 />
 
-      <Contact />
+    
+
+
+    
 
       <Footer />
 
